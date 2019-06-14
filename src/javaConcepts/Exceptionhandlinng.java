@@ -21,8 +21,17 @@ public class Exceptionhandlinng {
     public void mul()
     {
     System.out.println(52*85);	
-    }
     
+    System.out.println(6+3);
+	try{
+	System.out.println(10/0);
+	}
+	catch(ArithmeticException e)
+	{
+		System.out.println(e);
+	}
+	System.out.println("hello");
+    }
   	public static void main(String[] args) {
   		Exceptionhandlinng ex=new Exceptionhandlinng();
   		//Exceptionhandlinng ex= null;// GETTING NullPointerException
