@@ -1,5 +1,7 @@
 package javaConcepts;
-
+/*
+ * break is used for only loop and switch statements
+ */
 public class Break {
 	public static void main(String[] args) {
 		int i=10;
@@ -32,13 +34,6 @@ public class Break {
 		default :
 			System.out.println(i);
 	}
-	
-	
-	
-	
-	
-	
-	
 	}
 
 }
