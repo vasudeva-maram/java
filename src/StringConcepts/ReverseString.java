@@ -19,7 +19,7 @@ public class ReverseString {
 		
 		System.out.println(rev);
 		
-		//2. using StringBuffer class:
+		//2. using StringBuffer glass:
 		StringBuffer sf = new StringBuffer(s);
 		System.out.println(sf.reverse());
 		
